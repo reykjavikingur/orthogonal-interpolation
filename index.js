@@ -1,1 +1,1 @@
-// TODO export a thing
+module.exports = require('./lib/interpolation');

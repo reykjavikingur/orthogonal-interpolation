@@ -1,6 +1,6 @@
 const Interpolation = require('../');
 
-const f = Interpolation.interpolateSignal([-3.14, -2], [0, 0], [3.14, 2]);
+const f = Interpolation.interpolateCurve([-1, 0], [0, 1], [1, 0]);
 
 var start = -10;
 var end = 10;
