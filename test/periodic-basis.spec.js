@@ -67,7 +67,7 @@ describe('PeriodicBasis', () => {
             beforeEach(() => {
                 base = basis(3);
             });
-            it('should be sine', () => {
+            it('should be sine 2', () => {
                 for (let x of xs) {
                     should(base(x)).be.approximately(Math.sin(2 * x), DELTA);
                 }
@@ -79,7 +79,7 @@ describe('PeriodicBasis', () => {
             beforeEach(() => {
                 base = basis(4);
             });
-            it('should be sine', () => {
+            it('should be cosine 2', () => {
                 for (let x of xs) {
                     should(base(x)).be.approximately(Math.cos(2 * x), DELTA);
                 }
@@ -91,7 +91,7 @@ describe('PeriodicBasis', () => {
             beforeEach(() => {
                 base = basis(5);
             });
-            it('should be sine', () => {
+            it('should be sine 3', () => {
                 for (let x of xs) {
                     should(base(x)).be.approximately(Math.sin(3 * x), DELTA);
                 }
@@ -103,7 +103,7 @@ describe('PeriodicBasis', () => {
             beforeEach(() => {
                 base = basis(6);
             });
-            it('should be sine', () => {
+            it('should be cosine 3', () => {
                 for (let x of xs) {
                     should(base(x)).be.approximately(Math.cos(3 * x), DELTA);
                 }

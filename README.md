@@ -48,4 +48,3 @@ Curves are interpolated with a polynomial basis: x^0, x^1, x^2, ...
 Signals are interpolate with a periodic basis: 1, sin(x), cos(x), sin(2x), cos(2x), sin(3x), cos(3x), etc.
 
 
-2
