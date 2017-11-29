@@ -33,7 +33,7 @@ describe('PeriodicBasis', () => {
 
             it('should return constant value', () => {
                 for (let x of xs) {
-                    should(base(x)).be.approximately(0.5, DELTA);
+                    should(base(x)).be.approximately(1, DELTA);
                 }
             });
         });
