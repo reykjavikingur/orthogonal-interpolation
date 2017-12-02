@@ -6,7 +6,11 @@
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [],
+  "keywords": ["linear algebra"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reykjavikingur/orthogonal-interpolation.git"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
